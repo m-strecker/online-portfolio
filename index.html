@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is an Online Portfolio</title>
+        <style>
+            button{
+                height:20px;
+                width:75px;
+                font-size: 8pt;
+                position: relative; left:20px;
+            }
+            button:hover{
+                background-color: aqua;
+            }
+            input{
+                width: 500px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style = "color:crimson">First Name, Last Name</h1>
+        <p>Hello and Welcome! This is a paragraph that contains information all about me. It includes my date of birth, my education, 
+            projects I've worked on, my current job, languages I speak, and activities that I enjoy.</p>
+
+    <h2 style = "color:darkblue">Noteable Projects</h2>
+    <ol>
+        <li>Project 1<button onclick = "window.location.href='https://en.wikipedia.org/wiki/Project'"> Click Here</button></li><br>
+        <li>Project 2<button onclick = "window.location.href='https://en.wikipedia.org/wiki/Project_management'"> Click Here</button></li><br>
+        <li>Project 3<button onclick = "window.location.href='https://en.wikipedia.org/wiki/Megaproject'"> Click Here</button></li>
+    </ol>
+    <h2 style = "color:darkblue">Languages Spoken</h2>
+    <ul>
+        <li>Language 1</li><br>
+        <li>Language 2</li><br>
+        <li>Language 3</li><br>
+    </ul>
+    <h2 style = "color:darkblue">Courses Attended</h2>
+    <ol>
+        <li>Course 1 - Taken this year</li><br>
+        <li>Course 2 - Take last year</li><br>
+        <li>Course 3 - Taken two years ago</li><br>
+    </ol>
+<form action=""> <!-- action to be determined in later modules-->
+    <h2>Web Form</h2>
+    Name: <br>
+    <input type="text" name="name" id="name1"><br><br>
+    Age: <br>
+    <input type="number" name="age" id="age1" style="width:40px"><br><br>
+    Email: <br>
+    <input type="email" name="email" id="email1"><br><br>
+    Request: <br>
+    <input type="text" name="request" id="request1" style="height:100px"><br><br>
+    <input type="submit" value="Submit" style="width:75px">
+</form>
+    </body>
+</html>
